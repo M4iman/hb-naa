@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Amna Nabila ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 26px 22px;
+        border-radius: 24px;
+        text-align: center;
+        width: 100%;
+        max-width: 360px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+        color: #ff3d68;
+        animation: glow 2s infinite alternate;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        color: #ff6f91;
+        margin-top: 0;
+    }
+
+    p {
+        color: #444;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 12px 0;
+    }
+
+    .heart {
+        font-size: 42px;
+        animation: heartbeat 1.2s infinite;
+        margin: 15px 0;
+    }
+
+    .qr {
+        margin-top: 18px;
+    }
+
+    .qr img {
+        width: 150px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .footer {
+        margin-top: 14px;
+        font-size: 13px;
+        color: #777;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        30% { transform: scale(1.25); }
+        60% { transform: scale(1); }
+    }
+
+    @keyframes glow {
+        from { text-shadow: 0 0 6px #ff9aa2; }
+        to { text-shadow: 0 0 16px #ff3d68; }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Happy Birthday 🎉</h1>
+    <h2>Amna Nabila 💕</h2>
+
+    <div class="heart">❤️</div>
+
+    <p>
+        Happy birthday awak.<br>
+        Hari ni hari awak,
+        and awak memang special.
+    </p>
+
+    <p>
+        Thank you sebab sentiasa ada dengan saya,
+        for every smile, support,
+        and patience awak.
+    </p>
+
+    <p>
+        I hope hari ni penuh dengan happiness,
+        ketawa awak,
+        dan moment yang buat awak rasa loved.
+    </p>
+
+    <p>
+        Saya doakan awak sentiasa sihat,
+        dipermudahkan urusan,
+        dan semua impian awak tercapai 🤍
+    </p>
+
+    <p>
+        I’m really grateful and lucky
+        to have awak in my life.
+    </p>
+
+    <!-- QR CODE -->
+    <div class="qr">
+        <p><b>Scan this 💌</b></p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=Happy Birthday Amna Nabila! Awak sangat special. From Aiman ❤️">
+    </div>
+
+    <div class="footer">
+        — from Aiman 💌
+    </div>
+</div>
+
+</body>
+</html>
